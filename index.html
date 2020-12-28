@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="generator" content="Jekyll v4.1.1">
+ <link href="https://deredblak.github.io/MyWebPizza/Css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .album{
+        background-color:black;
+      }
+      @keyframes LogoAnim
+      {
+        from{
+          transform: rotate(0deg);
+        }
+        to{
+          transform: rotate(360deg);
+        }
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .card-body{
+        text-align: center;
+      }
+     .card:hover{
+        text-decoration: none;
+        border: 2px solid rgba(0, 0, 0, 0.405);
+        transform: scale(1.05);
+        transition: 0.8s;
+      }
+      .nav-item:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+      }
+      #logo
+      {
+        animation-name: LogoAnim;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+      }
+      .d-block
+      {
+        width: 20em;
+      }
+      main{
+        text-align: center;
+      }
+      footer a{
+        padding:10px;
+      }
+      footer a:hover
+      { 
+        text-decoration:none;
+        transition: 0.5s;
+        opacity: 0.4;
+      }
+    </style>
+    <link href="Css/starter-template.css" rel="stylesheet">
+    <link href="Css/slide-bar.css" rel="stylesheet">
+    <link href="Css/anim.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow">
+      <a class="navbar-item" href="#" id="logo"><img src="Img/logo.png" width="70px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item ">
+        <a class="nav-link  px-5" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  px-5" href="#">Stock</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  px-5" href="#" >Delivery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  px-5" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Vacancy</a>
+          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="#">Reviews</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="Img/basket.png" width="40em" height="35px">Basket</button>
+    </form>
+  </div>
+</nav>
+<div id="mySidenav" class="sidenav">
+  <a href="#menu" id="m"><img src="Img/menu.png" width="50px"></a>
+  <a href="#loc" id="l"><img src="Img/location.png"  width="50px"></a>
+  <a href="#" id="a"><img src="Img/account.png"  width="50px"></a>  
+</div>
+<main>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-6 p-lg-4 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Create Your Own</h1>
+      <p class="lead font-weight-normal" id="img"></p>
+      <br>
+      <a class="btn btn-outline-secondary" href="#">Create</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <a name="menu"></a>
+  <div class="album py-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div  class="card mb-4 shadow-sm" >
+            <img width="100%" src="Img/1.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Arizona</h5>
+              <p class="card-text">
+                Bavarian sausages, BBQ sauce, Corn, Mushrooms, Onions, Mozzarella</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/2.jpg">
+           <div class="card-body">
+             <h5 class="card-text">Caprizone</h5>
+              <p class="card-text"> Tomato Sauce,  Sausage, Bacon, Molanari ,  Mozzarella, Basil.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/3.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Quattro cheese</h5>
+              <p class="card-text">
+                Feta, Parmesan, Bergader Blue, Mozzarella, Alfredo Sauce, Cheddar</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/4.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Hunting</h5>
+              <p class="card-text">
+                Bavarian sausages, BBQ sauce, Ham, Tomatoes, White sausages, Mustard</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/5.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Salami</h5>
+              <p class="card-text">
+                Italian Pepperoni, Bergader Blue, Mozzarella, Alfredo Sauce</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/6.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Pepperoni</h5>
+              <p class="card-text">
+                BBQ sauce, Meatballs, Parmesan, Pepperoni, Bulgarian pepper, Mozzarella</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/7.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Siciliano</h5>
+              <p class="card-text">
+                Feta, Mushrooms, Olives, Spinach, Tomatoes, Bulgarian pepper, Mozzarella</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/8.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Phiadelphia</h5>
+              <p class="card-text">
+                Cherry tomatoes, Chicken, Feta, Spinach, Mozzarella, Alfredo sauce</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img width="100%" src="Img/9.jpg">
+            <div class="card-body">
+              <h5 class="card-text">Country</h5>
+              <p class="card-text">
+                Bacon, Mushrooms, Onions, Pickled cucumbers, Mozzarella, Garlic sauce</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">32 cm</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <br><br>
+ <a name="loc"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21980.50554041027!2d30.69896996070227!3d46.47715951106303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631ed0c9f0e83%3A0x662bcbeb3235bdab!2z0JzQvtC70LTQsNCy0LDQvdC60LAsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1607279887436!5m2!1sru!2sua" width="80%" height="350" frameborder="1" style="border: 2px solid darkgrey; border-radius: 20px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></a>  
+  <br><br>  
+</main>
+<footer class="footer py-4 bg-dark">
+  <div class="container" style=" color:gray">
+    <div class="d-flex bd-highlight mb-2">
+      <div class="mr-auto p-2 bd-highlight">Contact with us : +38011993765<div>location : 
+        Rizovskaya st. 33-23</div></div>
+      <div class="p-2 bd-highlight"> <a href="#"><img src="Img/f.png"></a>
+        <a href="#"><img src="Img/inst.png"></a>
+        <a href="#"><img src="Img/em.png"></a></div>
+    </div>
+  </div>
+</footer>
+  </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://deredblak.github.io/MyWebPizza/assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
